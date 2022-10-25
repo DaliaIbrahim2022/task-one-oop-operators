@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.21)
-project(untitled29)
+cmake_minimum_required(VERSION 3.23)
+project(untitled3)
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled29 main.cpp BigDecimalInt.cpp BigDecimalInt.h)
+add_executable(untitled3 main.cpp BigDecimalIntcass.cpp BigDecimalIntcass.h)

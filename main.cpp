@@ -1,32 +1,16 @@
-#include<bits/stdc++.h>
-#include "BigDecimalInt.h"
-#include<regex>
-
+#include <iostream>
+#include <vector>
+#include "BigDecimalIntcass.h"
 using namespace std;
+// function to subtract two objects and return the result as a new object
+
 
 int main(){
-
-
-    BigDecimalInt a("012");
-    BigDecimalInt b("005");
-    cout<<b.size();
-
-
-//    BigDecimalInt a("4960");
-//    BigDecimalInt b("-90");
-//    cout << (a > b) << endl;
-
-//    BigDecimalInt a("4960");
-//    BigDecimalInt b("-43390");
-//    cout << (a > b) << endl;
-
-//    BigDecimalInt a("-4960");
-//    BigDecimalInt b("-43390");
-//    cout << (a > b) << endl;
-
-//    BigDecimalInt a("4960");
-//    BigDecimalInt b("43390");
-//    cout << (a > b) << endl;
-
+    BigDecimalInt a("1");
+    BigDecimalInt b("-9");
+    BigDecimalInt c;
+    c=b+a;
+    cout<<c<<endl;
+    return 0;
 
 }
